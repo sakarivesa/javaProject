@@ -1,8 +1,13 @@
 
-import java.util.ArrayList;
 import java.util.List;
 import java.util.Arrays;
 
+
+/**
+ * @author Sakari Vesa
+ * Stores the contact information of one person.
+ * Personal ID, first name, last name, phone number, address and email address
+ */
 class Contact {
 
     public String personalId;
@@ -12,6 +17,10 @@ class Contact {
     public String address = "";
     public String email = "";
 
+    /**
+     * constructor method, saves arguments as contact info
+     * @param args String array of personal ID, first name, last name, address and email
+     */
     public Contact(String[] args) {
 
         personalId = args[0];
@@ -22,6 +31,9 @@ class Contact {
         email = args[5];
     }
 
+    /**
+     * @return a list of the contact information
+     */
     public List<String> getInfo() {
 
         List<String> infoList = Arrays.asList(personalId, firstName, lastName,
