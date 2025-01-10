@@ -4,11 +4,11 @@ import java.util.Arrays;
 
 
 /**
- * @author Sakari Vesa
  * Stores the contact information of one person.
  * Personal ID, first name, last name, phone number, address and email address
+ * @author Sakari Vesa
  */
-class Contact {
+public class Contact {
 
     public String personalId;
     public String firstName;

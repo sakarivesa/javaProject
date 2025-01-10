@@ -3,6 +3,9 @@
 Contacts App
 Author Sakari Vesa
 
+Video overview (Finnish)
+https://www.youtube.com/watch?v=u9Q-Gt08nlg
+
 This app is for storing and handling Finnish contact information which
 includes a person's personal ID, name, phone number and optionally the address and email address.
 You can store and browse contacts, add new contacts, update and remove them.
@@ -11,9 +14,10 @@ This program is used via a command line interface where the options for the inpu
 
 Intalling and running the program
 
-The user must have java 21 or newer installed. Run the program with a command interface such as
-Command Prompt, Powershell or Bash using the command:
-java /filepath/src/ContactsApp
+The user should have java 21 or newer installed. Run the program with a command interface such as
+Command Prompt, Powershell or Bash using the commands:
+cd src
+java ContactsApp
 
 
 How to Use
