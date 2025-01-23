@@ -93,8 +93,8 @@ public class Inputs {
 
             if (address.matches("([a-zA-ZöäåÖÄÅ-]+ \\d+ ([A-Z] [0-9]+ )?\\d{5} [\\wöäåÖÄÅ-]+)?")) {
 
-                if (address.equals("")) { //empty input replaced with space
-                    address = " ";
+                if (address.equals("")) { //empty input replaced with '-'
+                    address = "-";
                 }
                 inValidInput = false;
             } else {
@@ -118,8 +118,8 @@ public class Inputs {
 
             if (email.matches("([\\w.-]+[@][\\w.-]+)?")) {
 
-                if (email.equals("")) { //empty input replaced with space
-                    email = " ";
+                if (email.equals("")) { //empty input replaced with '-'
+                    email = "-";
                 }
                 inValidInput = false;
             } else {

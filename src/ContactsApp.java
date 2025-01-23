@@ -247,7 +247,7 @@ public class ContactsApp {
         }
          //updating file after deleting the last contact, previously couldn't overwrite with empty line
         if (database.size() == 0) {
-            writeToFile(filepath, " ", append);
+            writeToFile(filepath, "", append);
         }
     }
 

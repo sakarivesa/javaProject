@@ -3,8 +3,7 @@
 Contacts App
 Author Sakari Vesa
 
-Video overview (Finnish)
-https://www.youtube.com/watch?v=u9Q-Gt08nlg
+No AI was used in the creation of the code.
 
 This app is for storing and handling Finnish contact information which
 includes a person's personal ID, name, phone number and optionally the address and email address.
